@@ -13,3 +13,10 @@ func main() {
 	choyeun := person{name: "choyeun", age: 18, favFood: favFood}
 	fmt.Println(choyeun.name)
 }
+
+/**
+go run main.go
+git add .
+git commit -m "."
+git push
+*/
