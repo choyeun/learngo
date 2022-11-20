@@ -9,9 +9,9 @@ type person struct {
 }
 
 func main() {
-	favFood := []string{"kimchi", "raman"}
+	favFood := []string{"rice", "ramen"}
 	choyeun := person{name: "choyeun", age: 18, favFood: favFood}
-	fmt.Println(choyeun.name)
+	fmt.Println(choyeun)
 }
 
 /**
